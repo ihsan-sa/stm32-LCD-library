@@ -2,7 +2,22 @@
  * lcd.h
  *
  *  Created on: Oct 8, 2024
- *      Author: ihsan
+ *      Author: Ihsan Salari
+ *
+ *      Connect and configure STM32 pins as follows:
+Label        (Port):
+
+LCD_D0         (PB4)
+LCD_D1         (PB5)
+LCD_D2         (PC0)
+LCD_D3         (PC1)
+LCD_D4         (PB0)
+LCD_D5         (PA4)
+LCD_D6         (PA1)
+LCD_D7         (PA0)
+LCD_RS         (PA9)
+LCD_RW         (PA8)
+LCD_E          (PB10)
  */
 
 #ifndef SRC_LCD_H_
